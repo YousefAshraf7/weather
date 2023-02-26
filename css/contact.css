@@ -1,0 +1,48 @@
+:root {
+    --main-color: #1e202b;
+    --secondary-color: #323544;
+    --color-color:#262936;
+    --maintext-color: #009ad8;
+    --secondarytext-color: #bfc1c8;
+}
+.contact-content{
+    background-color: var(--main-color);
+    padding: 20px 0;
+}
+.contact-content .navigator .container{
+    background-color: var(--color-color);
+    padding: 15px 15px;
+    border-radius: 30px;
+}
+.contact-content .navigator .container i{
+    color: var(--secondarytext-color);
+}
+.contact-content .navigator .container span{
+    color: white;
+}
+.contact-content .row .navi i{
+color: var(--maintext-color);
+}
+.contact-content .row .navi div,
+.contact-content .row .navi span{
+    font-size: 14px;
+    color: var(--secondarytext-color);
+}
+.contact-content .row .navi{
+    height: 400px;
+    background-color: var(--color-color);
+    border-radius: 15px;
+}
+.contact-form .row .form-control{
+    border: 1px solid var(--secondarytext-color)!important;
+    border-radius: 30px;
+}
+.contact-form .row .form-control:hover,
+.contact-form .row .form-control:focus{
+        border: 1px solid var(--maintext-color)!important;
+        box-shadow: none!important;
+}
+.contact-form .row  button{
+    background-color: var(--maintext-color)!important;
+    color: white;
+}
